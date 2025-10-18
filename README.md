@@ -1,3 +1,25 @@
+Project Description
+
+This Laravel 11 project implements a dual registration system for customers and admins with email verification.
+
+Key Features:
+
+Separate registration forms for Customer and Admin
+
+Role-based access (customer or admin)
+
+Email verification with 6-digit verification code
+
+Only verified users can log in
+
+Admin login page with validation
+
+Prevent customers from logging in via admin login
+
+Uses Mailtrap or local mail driver for email testing
+
+Validation on all registration fields
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

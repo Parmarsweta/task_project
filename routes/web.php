@@ -5,6 +5,10 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\VerificationController;
 use App\Http\Controllers\AdminLoginController;
 
+Route::get('/', function () {
+    return view('layouts.app');
+});
+
 Route::get('/customer/register', [AuthController::class, 'showCustomerForm'])->name('customer.register');
 Route::post('/customer/register', [AuthController::class, 'registerCustomer'])->name('customer.register.submit');
 
